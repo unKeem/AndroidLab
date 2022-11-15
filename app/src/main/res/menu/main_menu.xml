@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_sate"
+        android:icon="@drawable/ic_baseline_beach_access_24"
+        android:title="저장하기"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_exit"
+        android:icon="@android:drawable/ic_delete"
+        android:title="삭제하기"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="검색하기"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_search_view"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="검색어"
+        app:showAsAction="always"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+
+
+</menu>

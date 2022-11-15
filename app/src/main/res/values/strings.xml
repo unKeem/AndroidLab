@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AndroidLab</string>
+    <string name="txt_data1">Hello world</string>
+    <string name="txt_data2">hello</string>
+</resources>
